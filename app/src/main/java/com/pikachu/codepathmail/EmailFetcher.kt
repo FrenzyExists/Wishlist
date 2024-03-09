@@ -48,7 +48,7 @@ class EmailFetcher {
             "Debugging Techniques in Android",
             "Design Patterns in Android",
             "Improving Code Quality",
-            "Adopting Clean Architecture",
+            "Finding Demo's child support",
             "Mastering RecyclerView",
             "Understanding Data Binding",
             "UI/UX Design Principles",

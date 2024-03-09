@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp">
+    android:background="@color/backgroundAccent"
+    android:paddingHorizontal="10dp">
 
     <!-- Title and Price Layout -->
     <LinearLayout
@@ -11,32 +12,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:paddingVertical="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:paddingVertical="8dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <!-- Item Title -->
         <TextView
-            android:id="@+id/itemTv"
+            android:id="@+id/titleTv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textStyle="bold"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
+            android:textColor="@color/text"
             android:textSize="18sp"
+            android:textStyle="bold"
             tools:text="Your Extended Car Warranty" />
 
         <!-- Item Price -->
         <TextView
-            android:id="@+id/priceTv"
+            android:id="@+id/dateTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
+            android:textColor="@color/text"
             android:textSize="12sp"
+            android:textStyle="bold"
             tools:text="21 September" />
     </LinearLayout>
 
@@ -46,39 +49,52 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/titlePriceLayout"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/titlePriceLayout">
 
         <TextView
-            android:id="@+id/titleTv"
+            android:id="@+id/senderTv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:layout_weight="1"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
+            android:textColor="@color/text"
             android:textStyle="bold"
             tools:text="Your Lawyer" />
 
         <!-- Store Name -->
+
         <TextView
             android:id="@+id/summaryTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:maxLines="2"
-            android:ellipsize="end"
             android:layout_gravity="start"
             android:layout_weight="1"
-            android:textSize="12sp"
+            android:ellipsize="end"
+            android:maxLines="2"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
+            android:textColor="@color/text"
+            android:textSize="12sp"
             android:textStyle="italic"
-            tools:text="We would like to inform you that your car's warranty is set to expire soon. Ensure continued peace of mind on the road by extending your warranty today.
-" />
-
-
+            tools:text="We would like to inform you that your car's warranty is set to expire soon. Ensure continued peace of mind on the road by extending your warranty today." />
     </LinearLayout>
 
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/backgroundAccent2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTitleLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
