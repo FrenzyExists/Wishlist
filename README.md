@@ -1,39 +1,57 @@
-# Lab 2: CodepathMail
+# Android Project 2 - Funny Wishlist
 
-#### Time Spent: Around 2 1/2 hours
+Submitted by: **Angel L Garcia Guzman**
 
-![](./screenshots/demo.png)
+**Funny Wishlist** is a wishlist app that helps the user keep track of what they want to buy.
 
-In this lab, we'll build a simple clone of the very popular Gmail app.
+Time spent: **10** hours spent in total
 
-The main purpose of this lab is to understand how to implement the most common type of screen in mobile apps: scrolling lists.
+## Required Features
 
-In Android, RecyclerView is what allows us to easily display a list of data, and we'll utilize this lab to get comfortable working with RecyclerViews.
+The following **required** functionality is completed:
 
-## 🎯 Goals
-By the end of this lab you will be able to...
+- [ x ] **User can add an item to their wishlist**
+- [ x ] **User can see their list of items based on previously inputted items**
 
-- [ x ] Understand how to display a list of items with RecyclerView
-- [ x ] Understand how to customize the UI for each item in the RecyclerView
+The following **optional** features are implemented:
 
-### Application Features
+- [ x ] Wishlist app is 🎨 **customized** 🎨
+- [ x ] User can delete an item by long pressing on the item
+- [ x ] User can open an item's URL by clicking on the item
 
-#### Required Features
-- [ x ]  User can scroll through a list of 10 emails
-    - Each email includes the following information:
-      - Sender 
-      - Email title 
-      - Email summary
-#### Stretch Features
+The following **additional** features are implemented:
 
-- [ x ] User can press a 'Load More' button to see the next 5 emails displayed
-- [ x ] Each email displays additional information:
-    - [ ] Picture of the sender
-    - [ x ] Email sent date 
-    - [ x ] Bolded information if the email is unread
+- [ x ] App made me question life choices
 
-### Resources
+## Video Walkthrough
 
-- [Create dynamic lists with RecyclerView (developers.android.com)](https://developer.android.com/guide/topics/ui/layout/recyclerview)
-- [Using the RecyclerView (CodePath Guide)](https://guides.codepath.com/android/using-the-recyclerview)
-  - This guide provides both Java & Kotlin code examples. The Kotlin code (what you need) is just below the Java.
+Here's a walkthrough of implemented user stories:
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright 2024 DetectivePikachu
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

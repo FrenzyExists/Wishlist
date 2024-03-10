@@ -28,7 +28,7 @@
             android:textColor="@color/text"
             android:textSize="18sp"
             android:textStyle="bold"
-            tools:text="Your Extended Car Warranty" />
+            tools:text="Headphones" />
 
         <!-- Item Price -->
         <TextView
@@ -38,9 +38,9 @@
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
             android:textColor="@color/text"
-            android:textSize="12sp"
+            android:textSize="20sp"
             android:textStyle="bold"
-            tools:text="21 September" />
+            tools:text="$29.99 CAD" />
     </LinearLayout>
 
     <!-- Store Name and Summary Layout -->
@@ -48,22 +48,10 @@
         android:id="@+id/emailTitleLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titlePriceLayout">
-
-        <TextView
-            android:id="@+id/senderTv"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:layout_weight="1"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp"
-            android:textColor="@color/text"
-            android:textStyle="bold"
-            tools:text="Your Lawyer" />
 
         <!-- Store Name -->
 
@@ -80,7 +68,19 @@
             android:textColor="@color/text"
             android:textSize="12sp"
             android:textStyle="italic"
-            tools:text="We would like to inform you that your car's warranty is set to expire soon. Ensure continued peace of mind on the road by extending your warranty today." />
+            tools:text="Amazon.com | The Always 99 Store" />
+
+        <ImageButton
+            android:id="@+id/optionsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_more_options"
+            android:background="@drawable/rounded_button_background"
+            android:contentDescription="@string/something_for_options" />
     </LinearLayout>
 
     <!-- Divider -->
