@@ -29,6 +29,8 @@ Here's a walkthrough of implemented user stories:
 
 ![](./Animation.gif)
 
+![](./screenshots/Animation.gif)
+
 ## Notes
 
 Describe any challenges encountered while building the app.
